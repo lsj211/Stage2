@@ -35,5 +35,6 @@ def train_by_dqn_robot(times, maze_size=5):
 if __name__ == "__main__":
     # tf 2.1
     generate_times = 5  # 测试次数，每次测试都会重新生成迷宫，并从零开始训练机器人
+    print("训练开始！")
     for time in range(generate_times):
         train_by_dqn_robot(time, maze_size=5)

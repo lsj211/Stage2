@@ -36,7 +36,7 @@ from Maze import Maze
 from ReplayDataSet import ReplayDataSet
 from torch_py.QNetwork import QNetwork
 
-
+print(222)
 class OptimizedDQNRobot(QRobot):
     valid_action = ['u', 'r', 'd', 'l']
 

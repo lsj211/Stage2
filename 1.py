@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 # print(maze)
 
 
-
+print(111)
 import numpy as np
 
 # 机器人移动方向
