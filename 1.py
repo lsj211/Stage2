@@ -10,33 +10,6 @@ from torch_py.MinDQNRobot import MinDQNRobot as TorchRobot # PyTorch版本
 
 import matplotlib.pyplot as plt
 import sys
-""" 创建迷宫并展示 """
-# maze = Maze(maze_size=10) # 随机生成迷宫
-# # print(maze)
-#
-#
-# import random
-#
-# rewards = [] # 记录每走一步的奖励值
-# actions = [] # 记录每走一步的移动方向
-#
-# # 循环、随机移动机器人10次，记录下奖励
-# for i in range(10):
-#     valid_actions = maze.can_move_actions(maze.sense_robot())
-#     action = random.choice(valid_actions)
-#     rewards.append(maze.move_robot(action))
-#     actions.append(action)
-#
-# print("the history of rewards:", rewards)
-# print("the actions", actions)
-#
-# # 输出机器人最后的位置
-# print("the end position of robot:", maze.sense_robot())
-
-# 打印迷宫，观察机器人位置
-# print(maze)
-
-
 
 import numpy as np
 
