@@ -184,3 +184,5 @@ runner.run_training(epoch, training_per_epoch)
 runner.generate_gif(filename="results/dqn_size10.gif")
 
 print("训练完成！")
+
+a=1+1
