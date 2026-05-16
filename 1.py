@@ -9,7 +9,7 @@ from ReplayDataSet import ReplayDataSet
 from torch_py.MinDQNRobot import MinDQNRobot as TorchRobot # PyTorch版本
 
 import matplotlib.pyplot as plt
-
+import sys
 """ 创建迷宫并展示 """
 # maze = Maze(maze_size=10) # 随机生成迷宫
 # # print(maze)
